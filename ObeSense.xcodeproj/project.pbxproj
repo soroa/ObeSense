@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41789ADB18C3722A00F03E38 /* ObeSense_GIThub_test_class.m in Sources */ = {isa = PBXBuildFile; fileRef = 41789ADA18C3722A00F03E38 /* ObeSense_GIThub_test_class.m */; };
 		41DE87DC18C36EE600352248 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41DE87DB18C36EE600352248 /* Foundation.framework */; };
 		41DE87DE18C36EE600352248 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41DE87DD18C36EE600352248 /* CoreGraphics.framework */; };
 		41DE87E018C36EE600352248 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41DE87DF18C36EE600352248 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		41789AD918C3722A00F03E38 /* ObeSense_GIThub_test_class.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObeSense_GIThub_test_class.h; sourceTree = "<group>"; };
+		41789ADA18C3722A00F03E38 /* ObeSense_GIThub_test_class.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObeSense_GIThub_test_class.m; sourceTree = "<group>"; };
 		41DE87D818C36EE600352248 /* ObeSense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObeSense.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41DE87DB18C36EE600352248 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		41DE87DD18C36EE600352248 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -119,6 +122,8 @@
 				41DE87F118C36EE600352248 /* ObeSenseViewController.m */,
 				41DE87F318C36EE600352248 /* Images.xcassets */,
 				41DE87E218C36EE600352248 /* Supporting Files */,
+				41789AD918C3722A00F03E38 /* ObeSense_GIThub_test_class.h */,
+				41789ADA18C3722A00F03E38 /* ObeSense_GIThub_test_class.m */,
 			);
 			path = ObeSense;
 			sourceTree = "<group>";
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41DE87EC18C36EE600352248 /* ObeSenseAppDelegate.m in Sources */,
+				41789ADB18C3722A00F03E38 /* ObeSense_GIThub_test_class.m in Sources */,
 				41DE87F218C36EE600352248 /* ObeSenseViewController.m in Sources */,
 				41DE87E818C36EE600352248 /* main.m in Sources */,
 			);
@@ -461,6 +467,7 @@
 				41DE880C18C36EE600352248 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		41DE880D18C36EE600352248 /* Build configuration list for PBXNativeTarget "ObeSenseTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +476,7 @@
 				41DE880F18C36EE600352248 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
